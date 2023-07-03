@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Muller Regular";
+    src: url("../fonts/MullerRegular.ttf");
+}
+
+@font-face {
+    font-family: "Muller Black";
+    src: url("../fonts/MullerBlack.ttf");
+}
+
+@font-face {
+    font-family: "Muller Bold";
+    src: url("../fonts/MullerBold.ttf");
+}
+
+@font-face {
+    font-family: "Muller Extra Bold";
+    src: url("../fonts/MullerExtraBold.ttf");
+}
+
+#main {
+    height: 840px;
+    background-position: center;
+}
+
+#header {
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    margin-bottom: 130px;
+    width: 100%;
+}
+
+#header-block {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-right: 248px;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-left: 8px;
+}
+
+#logo div {
+    font-size: 24px;
+    color: #ffc468;
+    font-family: "Muller Black", sans-serif;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    width: 490px;
+}
+
+#menu a {
+    font-size: 16px;
+    color: #a46b00;
+    cursor: pointer;
+    font-family: "Muller Regular", sans-serif;
+    text-decoration: none;
+}
+
+#description {
+    background-position: center;
+    width: 1200px;
+    margin: 0 auto 160px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#description .block-title {
+    color: #b99050;
+    margin-bottom: 60px;
+    font-size: 55px;
+    font-family: "Muller Extra Bold", sans-serif;
+}
+
+#description .block-title div {
+    margin-top: 10px;
+    color: #ffaf18;
+}
+
+.block-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 306px;
+    margin-bottom: 47px;
+    margin-right: 60px;
+}
+
+.block-description img {
+    height: 60px;
+    width: 60px;
+    margin-right: 16px;
+}
+
+.block-description-title {
+    color: #ffaf18;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: "Muller Extra Bold", sans-serif;
+}
+
+.block-description-text {
+    color: #b99150;
+    font-size: 16px;
+    font-family: "Muller Regular", sans-serif;
+}
+
+.wrapper-description {
+    display: flex;
+}
+
+.wrapper-description-block {
+    display: flex;
+    align-items: flex-start;
+}
+
+#description button {
+    background-color: rgb(255, 175, 24);
+    width: 224px;
+    height: 60px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Muller Bold", sans-serif;
+}
+
+#description button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#description button:hover {
+    border-color: #ffa21e;
+    color: rgb(255, 255, 255);
+}
+
+.description-img {
+    width: 520px;
+    height: 342px;
+    margin-top: 150px;
+}
+
+#stock {
+    background-position: center;
+    width: 1200px;
+    margin: 0 auto 239px auto;
+}
+
+#stock .stock-title {
+    font-size: 35px;
+    color: #bd975c;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: "Muller Bold", sans-serif;
+}
+
+#stock .block-stock {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    width: 242px;
+    height: 342px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 24px;
+    padding: 27px 20px 15px 20px;
+}
+
+#stock img {
+    margin-top: 27px;
+    margin-bottom: 15px;
+    width: 214px;
+    height: 152px;
+}
+
+.wrapper-stock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wrapper-stock a {
+    text-decoration: none;
+}
+
+.pizza-title {
+    font-size: 18px;
+    color: rgb(56, 36, 0);
+    margin-bottom: 14px;
+    font-family: "Muller Bold", sans-serif;
+}
+
+.pizza-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "Muller Regular", sans-serif;
+}
+
+#stock .block-stock button {
+    background-color: rgb(255, 175, 24);
+    font-size: 15px;
+    width: 242px;
+    height: 50px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    font-family: "Muller Bold", sans-serif;
+}
+
+#stock .block-stock button:hover {
+    border-color: #ffa21e;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+    width: 1200px;
+    margin: 0 auto 105px auto;
+}
+
+#footer .footer-description {
+    width: 370px;
+}
+
+#footer .footer-title {
+    font-size: 35px;
+    color: rgb(255, 175, 24);
+    line-height: 1.286;
+    margin-bottom: 70px;
+    font-family: "Muller Extra Bold", sans-serif;
+}
+
+#footer .footer-title div {
+    color: #b99050;
+}
+
+#footer .footer-text {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    line-height: 1.5;
+    font-family: "Muller Regular", sans-serif;
+}
+
+.footer-form {
+    margin-top: 60px;
+}
+
+.reserve-input input {
+    border-width: 1px;
+    border-color: rgb(185, 145, 80);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    width: 303px;
+    height: 58px;
+    margin-bottom: 24px;
+    padding-left: 25px;
+    font-family: "Muller Regular", sans-serif;
+}
+
+.reserve-input input::placeholder {
+    font-size: 18px;
+    color: rgb(203, 168, 110);
+    line-height: 2.5;
+    font-family: "Muller Regular", sans-serif;
+}
+
+.reserve-input input:focus {
+    border-width: 1px;
+    border-color: rgb(255, 175, 24);
+    border-style: solid;
+    outline:none;
+}
+
+#reserve-button button {
+    background-color: rgb(255, 175, 24);
+    width: 330px;
+    height: 60px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    font-size: 16px;
+    font-family: "Muller Bold", sans-serif;
+}
+
+#reserve-button button:hover {
+    border-color: #ffa21e;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#reserve-error {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -10px;
+    width: 100%;
+    display: none;
+    font-family: "Muller Regular", sans-serif;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    background-color: #ffc468;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-family: "Muller Bold", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+#burger {
+    display: none;
+    color: #000000;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+
+
+
